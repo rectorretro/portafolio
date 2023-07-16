@@ -60,6 +60,12 @@ nav {
 	border-bottom: 8px #eaa00b;
 }
 
+.title{
+	float: left;
+	display: block;
+	width: 	1500px;
+}
+
 .h1-1{
 	font-family: "Lovelo";
 	text-align: center;
