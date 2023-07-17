@@ -4,34 +4,62 @@ body {
 	background: linear-gradient(-45deg, rgba(36,0,0,1) 0%, rgba(255,166,0,1) 41%, rgba(255,255,255,0.510224158022584) 100%);
 	background-size: contain;*/
 }
+*{
+	font-family: "Arial";
+}
 
-
+div{
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+}
 .freya{
-	background-image: url(https://pbs.twimg.com/media/F06y5TAWAAYFh-k?format=jpg&name=large);
-	background-size: contain;
-	position: relative;
-    width: 500px;
-    height: 625.15px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	gap: 1em;
+}
+
+
+.freya__picture{
+    width: 50%;
+    height: auto;
     border-radius: 10%;
     border: 4px solid #ffffff;
     margin: auto;
-    display: block;
-    align-content: center;
-    
 }
 
-.freya:hover{
+.freya__picture:hover{
 	border: 4px solid #eaa00b;
 }
 
-.freya_text{
+.freya__text{
 	font-family: "Arial";
 	color: #ffffff;
 	text-align: center;
 
 }
 
+.container-header{
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+}
 
+.container-header__title{
+	align-items: center;
+}
+
+.container-header__h1{
+	font-family: "Lovelo";
+	text-align: center;
+	color: white;
+}
+
+a{
+	text-decoration: none;
+	color: #ffffff
+}
 
 nav {
 	font-family: "Lovelo";
@@ -42,17 +70,15 @@ nav {
 	overflow: hidden;
 }
 .a-navs a{
+	font-family: "Lovelo";
 	float: left;
-	display: block;
+	display: flex;
 	width: 	90px;
 	color: #ffffff;
 	padding: 14px 16px;
 	background-color: #252524;
 	border-bottom: 8px #ffffff;
-	
-
 }
-
 .a-navs a:hover {
 	color: #eaa00b;
 	font-weight: bold;
@@ -60,21 +86,9 @@ nav {
 	border-bottom: 8px #eaa00b;
 }
 
-.title{
-	float: left;
-	display: block;
-	width: 	1500px;
-}
 
-.h1-1{
-	font-family: "Lovelo";
-	text-align: center;
-	color: white;
-}
 
-a{
-	text-decoration: none;
-	color: #ffffff
-}
+
+
 
 
